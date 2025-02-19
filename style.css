@@ -1,0 +1,136 @@
+html, body, a {
+    height: auto; 
+    overflow-y: scroll; 
+    text-decoration: none; 
+}
+
+/*Top Banner Section*/
+.StaticTitle{
+    border: 2px dotted black;
+    border-radius: 10px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5px;
+    margin-top: 8px;
+
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.Navigation{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.QuickLinks{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+    margin: 5px;
+
+    list-style: none;
+
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+/*Article section (Travel.html)*/
+
+.Image{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    border: 2px solid black;
+    width: 700px;
+    border-radius: 10px;
+}
+
+#Map{
+    
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/*Article Content*/
+.Headerh2{
+    font-family:'Courier New', Courier, monospace ;
+}
+/*Boxes for Display*/
+.headerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px dotted black;
+    border-radius: 10px;
+    width: 700px;
+    height: 40px;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articleBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: auto;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*Paragraph Information*/
+.Paragraph{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.SmallImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    gap: 10px;
+
+    
+}
+.indvImage{
+    width: 165px;
+    height: 150px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
