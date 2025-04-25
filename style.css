@@ -1,32 +1,46 @@
+/* Color Palette:
+   - Dark Blue: #2C3E50
+   - Light Blue: #3498DB
+   - Gray: #ECF0F1
+   - White: #FFFFFF
+*/
+
 html, body, a {
-    height: auto; 
-    overflow-y: scroll; 
-    text-decoration: none; 
+    height: auto;
+    overflow-y: scroll;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*Top Banner Section*/
-.StaticTitle{
-    border: 2px dotted black;
+.StaticTitle {
+    border: 2px dotted #2C3E50;
     border-radius: 10px;
-
-    display:flex;
+    
+    display: flex;
     justify-content: center;
     align-items: center;
 
     margin-bottom: 5px;
     margin-top: 8px;
 
-    font-family: 'Courier New', Courier, monospace;
-    
-}
-.Navigation{
-    border: 2px solid black;
-    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #ECF0F1;
+    color: #2C3E50;
 }
 
-.QuickLinks{
-    
-    display:flex;
+.Navigation {
+    border: 2px solid #2C3E50;
+    border-radius: 10px;
+    background-color: #3498DB;
+    color: #FFFFFF;
+}
+
+.QuickLinks {
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -35,16 +49,13 @@ html, body, a {
 
     list-style: none;
 
-    font-family: 'Courier New', Courier, monospace;
-    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
-
-
 /*Article section (Travel.html)*/
-
-.Image{
-
+.Image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,32 +64,33 @@ html, body, a {
     margin-left: auto;
     margin-right: auto;
 
-
-    border: 2px solid black;
+    border: 2px solid #2C3E50;
     width: 700px;
     border-radius: 10px;
+    background-color: #ECF0F1;
 }
 
-#Map{
-    
+#Map {
     width: 700px;
     height: auto;
     border-radius: 10px;
 }
 
-
-
 /*Article Content*/
-.Headerh2{
-    font-family:'Courier New', Courier, monospace ;
+.Headerh2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #2C3E50;
 }
+
 /*Boxes for Display*/
-.headerBox{
+.headerBox {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    border: 2px dotted black;
+    border: 2px dotted #2C3E50;
     border-radius: 10px;
     width: 700px;
     height: 40px;
@@ -86,14 +98,17 @@ html, body, a {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
+
+    background-color: #ECF0F1;
+    color: #2C3E50;
 }
 
-.articleBox{
+.articleBox {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    border: 2px solid black;
+
+    border: 2px solid #2C3E50;
     border-radius: 10px;
     width: 700px;
     height: auto;
@@ -102,35 +117,37 @@ html, body, a {
     margin-left: auto;
     margin-right: auto;
 
+    background-color: #FFFFFF;
+    color: #2C3E50;
 }
-
 
 /*Paragraph Information*/
-.Paragraph{
+.Paragraph {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     padding-left: 20px;
     padding-right: 20px;
-
+    color: #2C3E50;
 }
-.SmallImage{
+
+/*Image Gallery Layout*/
+.SmallImage {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
     gap: 10px;
-
-    
 }
-.indvImage{
+
+.indvImage {
     width: 165px;
     height: 150px;
 
-    border: 2px solid black;
+    border: 2px solid #2C3E50;
     border-radius: 10px;
 }
